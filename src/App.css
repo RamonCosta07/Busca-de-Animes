@@ -1,0 +1,26 @@
+#root {
+  text-align: center;
+}
+
+.App h1{
+  margin: 1rem 0;
+}
+
+.App input{
+  border: 3px solid black;
+  padding: .3rem;
+  border-radius: 5px;
+}
+
+.animes-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+  grid-gap: 1.5rem;
+  margin: 1.5rem 1rem;
+}
+
+.animes-list img{
+  max-width: 100%;
+  border-radius: 5px;
+}
